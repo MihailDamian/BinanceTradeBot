@@ -1,0 +1,16 @@
+{
+  "MathRoundPairValue": 8,
+  //second pair  is first value for comparation pair
+  "FirstPair": {
+    "First": "DOGE",
+    "Second": "USDT"
+  },
+  "SecondPair": {
+    "First": "BTC",
+    "Second": "USDT"
+  },
+  "ComparationPair": {
+    "First": "DOGE",
+    "Second": "BTC"
+  }
+}

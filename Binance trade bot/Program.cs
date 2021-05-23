@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Binance_trade_bot.Services;
+using System;
 
 namespace Binance_trade_bot
 {
@@ -6,7 +7,11 @@ namespace Binance_trade_bot
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            BinanceServices.Login();
+            BinanceServices.GetData();
+
+            LogServices.Warrning("Press enter to exit");
+            Console.ReadLine();
         }
     }
 }
