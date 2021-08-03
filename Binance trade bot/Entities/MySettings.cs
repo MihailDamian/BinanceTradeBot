@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Binance_trade_bot.Services;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -21,6 +22,7 @@ namespace Binance_trade_bot.Entities
         internal void ClearData()
         {
             FirstPair.LastData = SecondPair.LastData = ComparationPair.LastData = null;
+            LogServices.Info("Clear data");
         }
     }
 }

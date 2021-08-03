@@ -2,15 +2,19 @@
   "MathRoundPairValue": 8,
   //second pair  is first value for comparation pair
   "FirstPair": {
-    "First": "DOGE",
-    "Second": "USDT"
+    "First": "AERGO",
+    "Second": "BUSD",
+    "FirstMaxAmmountForTrade": 2,
+    "SecondMaxAmmountForTrade": 0.5
   },
   "SecondPair": {
     "First": "BTC",
-    "Second": "USDT"
+    "Second": "BUSD",
+    "FirstMaxAmmountForTrade": 0.000006,
+    "SecondMaxAmmountForTrade": 0.5
   },
   "ComparationPair": {
-    "First": "DOGE",
+    "First": "AERGO",
     "Second": "BTC"
   }
 }
